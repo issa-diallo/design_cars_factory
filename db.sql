@@ -1,0 +1,18 @@
+CREATE TABLE car
+(
+    id INT PRIMARY KEY NOT NULL,
+    brand VARCHAR(255) NOT NULL,
+    window VARCHAR(255) NOT NULL,
+    color VARCHAR(255) NOT NULL,
+    steering_wheel VARCHAR(255) NOT NULL,
+    seat VARCHAR(255) NOT NULL,
+    belt VARCHAR(255) NOT NULL,
+)
+
+CREATE TABLE wheel
+(
+    id INT PRIMARY KEY NOT NULL,
+    brand VARCHAR(255) NOT NULL,
+    tire_size VARCHAR(255) NOT NULL,
+    color VARCHAR(255) NOT NULL,
+)
